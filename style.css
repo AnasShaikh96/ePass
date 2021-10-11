@@ -1,0 +1,105 @@
+body {
+  /* font-family: Arial, sans */
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+}
+.container {
+  /* background-color: aquamarine; */
+  width: 78%;
+  /* margin: 9px; */
+  margin-top: 12px;
+  margin-left: 5px;
+  height: 520px;
+}
+
+.head {
+  text-align: center;
+  background: url("/epass_assets/bg.jpg");
+  height: 20%;
+}
+.heading-1,
+.heading-2 {
+  margin: 0 !important;
+  padding: 0;
+  color: white;
+}
+
+.heading-1 {
+  font-size: 3.5rem;
+  font-family: "Montserrat", sans-serif !important;
+  font-weight: 900;
+}
+.heading-2 {
+  font-size: 2rem;
+  display: block;
+  position: relative;
+  right: 5px;
+  bottom: 12px;
+  font-weight: bold;
+}
+.card {
+  display: flex;
+}
+
+.card-image-left {
+  position: relative;
+  bottom: 60px;
+  left: 50px;
+}
+
+.card-image-right {
+  position: relative;
+  bottom: 60px;
+  left: 170px;
+}
+
+.card-container {
+  position: relative;
+  left: 120px;
+  top: 15px;
+  text-align: center;
+}
+.card-image-top {
+  border: 5px solid #fff;
+  box-shadow: 0 0 5px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+  padding: 0;
+}
+
+.card-container h1,
+.card-container h4,
+.card-container h2 {
+  margin: 0;
+}
+
+.card-head {
+  font-size: 2.3rem;
+  color: #64bc47;
+  font-weight: bold;
+}
+.card-title {
+  display: block;
+  /* margin-left: auto; */
+  padding-top: 15px;
+  font-size: 1.5rem;
+  font-weight: lighter;
+  color: #203884;
+  font-family: "Cinzel", serif;
+}
+.card-footer {
+  font-size: 1.7rem;
+  margin: 15px 0;
+}
+
+.footer {
+  background: #e7e7e7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  bottom: 55px;
+}
+
+.footer span {
+  padding: 10px 5px;
+}
